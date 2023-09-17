@@ -1,1 +1,15 @@
-     
+import os;
+
+os.system ("cls")
+
+class Humano(): 
+
+   
+
+    def __init__(self, edad, nombre, ocupacion): 
+        self.edad = edad 
+        self.nombre = nombre
+        self.ocupacion = ocupacion
+
+       
+
