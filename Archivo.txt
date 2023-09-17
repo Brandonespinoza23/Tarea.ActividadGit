@@ -11,5 +11,12 @@ class Humano():
         self.nombre = nombre
         self.ocupacion = ocupacion
 
+    def presentacion(self):
+        presentacion= ("Hola soy {}, mi edad es {} y y mi ocupacion es {}") #Mensaje
+        print(presentacion.format(self.nombre, self.edad, self.ocupacion))#Usamos format
+
+Persona1 = Humano(20, "Jose Luis", "Programador") 
+Persona1.presentacion()  
+
        
 
